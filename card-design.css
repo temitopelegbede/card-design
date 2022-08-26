@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
 }
+
 /* 
 body {
     background-color: rgb(165, 241, 247);
@@ -28,23 +29,51 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 350px;
-    height: 350px;
+    height: 380px;
     margin: 0 auto;
     margin-top: 3rem;
     justify-content: center;
     text-align: center;
     background-color: white;
     border-radius: 10px;
+    position: relative;
 }
 
-.carditem {
-    width: 300px;
-    background-color: #ffffff;
-    border: 1px solid #efefef;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    font-size: 2rem;
-    padding: 10px;
-    color: #111;
+.top-side {
+    margin: auto;
+}
+
+.r-label {
+    position: absolute;
+    /* width: 0px; */
+    /* border: 0px solid yellow; */
+    left: 10px;
     margin: 10px;
+}
+
+.more-info {
+    position: absolute;
+    /* width: 0px; */
+    /* border: 0px solid yellow; */
+    right: 10px;
+    margin: 10px;
+}
+
+.descrip {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    margin: 5px, auto;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    right: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
 }
