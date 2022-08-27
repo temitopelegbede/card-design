@@ -5,38 +5,29 @@
     list-style: none;
 }
 
-/* 
-body {
+/* body {
     background-color: rgb(165, 241, 247);
+    flex-wrap: wrap;
 } */
 
 .parent-1 {
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
-    height: 550px;
-    margin: 0 auto;
-    margin-top: 3rem;
-    justify-content: center;
-    /* margin: 30px 30px; */
-    text-align: center;
-    background-color: rgb(176, 176, 245);
-    padding: 40px;
-    border-radius: 10px;
 }
 
 .parent-2 {
     display: flex;
     flex-wrap: wrap;
     width: 350px;
-    height: 380px;
-    margin: 0 auto;
+    height: 400px;
+    margin: auto;
     margin-top: 3rem;
     justify-content: center;
     text-align: center;
     background-color: white;
     border-radius: 10px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .top-side {
@@ -65,7 +56,8 @@ body {
 
 p {
     text-align: left;
-    margin: 5px, auto;
+    /* margin: 5px, auto; */
+    padding: 10px;
 }
 
 .fa-chevron-down {
@@ -76,4 +68,8 @@ p {
 .icon {
     position: absolute;
     left: 10px;
+}
+.bottom-side {
+    margin-top: 0rem;
+    /* padding: 5px; */
 }
